@@ -1,4 +1,4 @@
-cask 'betterzipql-standalone' do
+cask 'betterzipql' do
   version :latest
   sha256 :no_check
 
