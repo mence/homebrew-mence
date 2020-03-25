@@ -1,14 +1,12 @@
-cask 'adobe-photoshop-lightroom-6' do
-  version '6.14'
-  sha256 'a9fba25594181acdb72d713fcbba5a1f3816ad18b974af2918e41e9ba5cc63ab'
+cask 'adobe-photoshop-lightroom600' do
+  version '6.0'
+  sha256 '5c36e5fa76b8676144c4bba9790fe4c597daf350b2195a2088346b097f46a95f'
 
-  url "http://swupdl.adobe.com/updates/oobe/aam20/mac/AdobeLightroom-#{version.major}.0/#{version}/setup.dmg"
-  name 'Adobe Photoshop Lightroom 6'
+  url "https://trials3.adobe.com/AdobeProducts/LTRM/#{version.major}/osx10/Lightroom_#{version.major}_LS11.dmg",
+      user_agent: :fake,
+      cookies:    { 'MM_TRIALS' => '1234' }
+  name 'Adobe Photoshop Lightroom'
   homepage 'https://www.adobe.com/products/photoshop-lightroom.html'
-
-  auto_updates true
-  # depends_on cask: 'homebrew/cask-versions/adobe-photoshop-lightroom600' # Disabled due to upstream decisions and removal from mainline
-  depends_on cask: 'mence/mence/adobe-photoshop-lightroom600' # Lightroom installer requires the base install of v6 and then applies this cask as upgrade patches on top of it
 
   # staged_path not available in Installer/Uninstall Stanza, workaround by nesting with preflight/postflight
   # see https://github.com/Homebrew/homebrew-cask/pull/8887
@@ -21,16 +19,28 @@ cask 'adobe-photoshop-lightroom-6' do
       system_command '/usr/bin/killall', args: ['-kill', 'SafariNotificationAgent']
     end
 
-    system_command "#{staged_path}/AdobePatchInstaller.app/Contents/MacOS/AdobePatchInstaller",
+    system_command "#{staged_path}/Install.app/Contents/MacOS/Install",
                    args: [
-                           '--mode=silent',
+                           '--mode=silent', "--deploymentFile=#{staged_path}/deploy/AdobeLightroom6.install.xml"
                          ],
                    sudo: true
   end
 
   uninstall_preflight do
-    system_command "#{HOMEBREW_PREFIX}/bin/brew", args: ['cask', 'uninstall', 'adobe-photoshop-lightroom600']
+    processes = system_command '/bin/launchctl', args: ['list']
+
+    if processes.stdout.lines.any? { |line| line =~ %r{^\d+\t\d\tcom.apple.SafariNotificationAgent$} }
+      system_command '/usr/bin/killall', args: ['-kill', 'SafariNotificationAgent']
+    end
+
+    system_command "#{staged_path}/Install.app/Contents/MacOS/Install",
+                   args: [
+                           '--mode=silent', "--deploymentFile=#{staged_path}/deploy/AdobeLightroom6.remove.xml"
+                         ],
+                   sudo: true
   end
+
+  uninstall delete: '/Applications/Adobe Lightroom/Adobe Lightroom.app'
 
   zap trash: [
                '~/Library/Application Support/Adobe/Lightroom',
