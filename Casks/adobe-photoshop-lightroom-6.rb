@@ -1,9 +1,9 @@
-cask 'adobe-photoshop-lightroom' do
+cask 'adobe-photoshop-lightroom-6' do
   version '6.14'
   sha256 'a9fba25594181acdb72d713fcbba5a1f3816ad18b974af2918e41e9ba5cc63ab'
 
   url "http://swupdl.adobe.com/updates/oobe/aam20/mac/AdobeLightroom-#{version.major}.0/#{version}/setup.dmg"
-  name 'Adobe Photoshop Lightroom'
+  name 'Adobe Photoshop Lightroom 6'
   homepage 'https://www.adobe.com/products/photoshop-lightroom.html'
 
   auto_updates true
