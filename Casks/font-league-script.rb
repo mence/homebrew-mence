@@ -3,9 +3,9 @@ cask 'font-league-script' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/leaguescript/LeagueScript.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/leaguescript/LeagueScript-Regular.ttf'
   name 'League Script'
   homepage 'https://www.google.com/fonts/specimen/League+Script'
 
-  font 'LeagueScript.ttf'
+  font 'LeagueScript-Regular.ttf'
 end
