@@ -10,7 +10,6 @@ cask 'padbury-clock' do
   name 'Padbury Clock'
   # homepage 'http://padbury.me/' # This was the original homepage.
   homepage 'http://padbury.app/'
-  license :gratis
 
   screen_saver 'Padbury Clock.saver'
 end
