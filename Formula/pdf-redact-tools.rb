@@ -14,7 +14,9 @@ class PdfRedactTools < Formula
     sha256 "1d5dddb4adc486d89537a5368550c787b9dbae0c6cd9cddba9b2e45820b025e1" => :high_sierra
   end
 
-  deprecate! because: :unmaintained
+  # This deprecation is valid but disabled here to silence brew doctor warnings
+  # Alternative recommended tool is dangerzone: https://dangerzone.rocks/
+  # deprecate! because: :unmaintained
 
   depends_on "exiftool"
   depends_on "ghostscript"
