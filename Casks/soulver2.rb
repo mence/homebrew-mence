@@ -1,6 +1,6 @@
 cask "soulver2" do
   version "2.9.0-6104"
-  sha256 "2aaa67f6c08e1aa540d9314ef2abb72195b92b618a81366ff57386dc443b77f3"
+  sha256 :no_check
 
   url "https://soulver.app/download-soulver-2", referer: "https://documentation.soulver.app/faq"
   name "Soulver 2"
