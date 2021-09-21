@@ -8,7 +8,9 @@ As Caskroom does not provide a description for it's Casks, I've added a small de
 
 ## [Kegs (command-line applications)](https://github.com/homebrew/homebrew-core)
 
-- [cputhrottle](http://www.willnolan.com/cputhrottle/cputhrottle.html): a small OS X command-line utility designed to limit the CPU usage of a process to which it attaches.
+- [`cputhrottle`](http://www.willnolan.com/cputhrottle/cputhrottle.html): a small OS X command-line utility designed to limit the CPU usage of a process to which it attaches.
+- [`pdf-react-tools`](https://github.com/firstlookmedia/pdf-redact-tools): PDF redaction and metadata removal tool
+- [`unrar`](https://www.rarlab.com/): RAR archive tool
 
 ## Casks (GUI applications)
 
@@ -17,6 +19,7 @@ As Caskroom does not provide a description for it's Casks, I've added a small de
 #### GUI Applications
 
 * [Adobe Photoshop Lightroom 6.14](https://www.adobe.com/products/photoshop-lightroom.html) and the base 6.0 version to allow upgrades
+* [Soulver 2](https://soulver.app): Legacy version of Soulver notepad calculator app
 
 #### Command-Line Applications
 
@@ -25,8 +28,8 @@ As Caskroom does not provide a description for it's Casks, I've added a small de
 #### Screensavers
 
 * [Padbury Clock Screensaver](http://padbury.app): An homage to Padbury Clock: A basic digital clock screensaver from Australian American designer Robert Padbury.
-* Polar Clock: This innovative clock screensaver from PixelBreaker displays both the time (hours, minutes and seconds) and the date (weekday, day of the month, and month) of the current year in a circular fashion, with each circle representing one division of time.
-* Screenstagram: The Screenstagram screensaver for Windows and OS X pulls images from the popular photo sharing app Instagram and displays them in a large, full-screen grid on your screen.
+* [Polar Clock](http://blog.pixelbreaker.com/polarclock): This innovative clock screensaver from PixelBreaker displays both the time (hours, minutes and seconds) and the date (weekday, day of the month, and month) of the current year in a circular fashion, with each circle representing one division of time.
+* [Screenstagram](http://screenstagram.s3.amazonaws.com): The Screenstagram screensaver for Windows and OS X pulls images from the popular photo sharing app Instagram and displays them in a large, full-screen grid on your screen.
 
 #### QuickLook Plugins
 
