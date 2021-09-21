@@ -1,8 +1,6 @@
 # homebrew-mence
 
-Custom [Homebrew](https://github.com/homebrew/homebrew-core) installs to restore removed or deprecated applications from the upstream [Homebrew](https://github.com/homebrew) and Caskroom repositories.
-
-As Caskroom does not provide a description for it's Casks, I've added a small description for some of the apps below.
+Custom [Homebrew](https://brew.sh) installs to restore removed or deprecated applications from the upstream [homebrew `core`](https://github.com/Homebrew/homebrew-core), [`cask`](https://github.com/Homebrew/homebrew-cask), and [`cask-versions`](https://github.com/Homebrew/homebrew-cask-versions) repositories.
 
 **WARNING: No warranty is implied in these apps, nor is there any support for them.**
 
