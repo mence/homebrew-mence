@@ -21,7 +21,7 @@ cask "slack418" do
   conflicts_with cask: "homebrew/cask/slack"
   depends_on macos: ">= :el_capitan"
 
-  app "Slack 4.18.app"
+  app "Slack.app"
 
   uninstall quit: "com.tinyspeck.slackmacgap"
 
