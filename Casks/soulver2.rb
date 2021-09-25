@@ -9,6 +9,7 @@ cask "soulver2" do
 
   auto_updates false
   depends_on macos: ">= :yosemite"
+  conflicts_with cask: "homebrew/cask-versions/soulver2"
 
   app "Soulver 2.app"
 
