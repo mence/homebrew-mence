@@ -1,4 +1,4 @@
-cask "docker" do
+cask "docker-4111" do
   arch arm: "arm64", intel: "amd64"
 
   version "4.11.1,84025"
