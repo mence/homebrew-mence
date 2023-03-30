@@ -44,4 +44,7 @@ cask "slack419" do
     "~/Library/Saved Application State/com.tinyspeck.slackmacgap.savedState",
     "~/Library/WebKit/com.tinyspeck.slackmacgap",
   ]
+
+  caveats "Slack has officially deprecated this version. Whilst it may install successfully, you may be blocked from using it at an API level when the app opens."
+
 end
