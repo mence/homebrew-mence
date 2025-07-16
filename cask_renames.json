@@ -1,0 +1,13 @@
+{
+  "adobe-photoshop-lightroom-600": "adobe-photoshop-lightroom@6.0",
+  "adobe-photoshop-lightroom-6": "adobe-photoshop-lightroom@6.14",
+  "alfred2": "alfred@2.9_466",
+  "docker-411": "docker@4.11.1",
+  "docker-461": "docker@4.6.1",
+  "keyboard-maestro6": "keyboard-maestro@6.4.8",
+  "mpv032": "mpv@0.32.0",
+  "mpv033": "mpv@0.33.1",
+  "slack418": "slack@4.18",
+  "slack419": "slack@4.19",
+  "viscosity194": "viscosity@1.9.4"
+}
