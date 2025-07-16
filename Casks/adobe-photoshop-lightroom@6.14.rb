@@ -1,4 +1,4 @@
-cask 'adobe-photoshop-lightroom-6' do
+cask 'adobe-photoshop-lightroom@6.14' do
   version '6.14'
   sha256 'a9fba25594181acdb72d713fcbba5a1f3816ad18b974af2918e41e9ba5cc63ab'
 

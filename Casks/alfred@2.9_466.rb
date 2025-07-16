@@ -1,4 +1,4 @@
-cask 'alfred2' do
+cask 'alfred@2.9_466' do
   version '2.9_446'
   sha256 '26a99cc0b96a4acee02bbc162ee433d9f1b20518ba8acc9691564b2c3698ed6a'
 

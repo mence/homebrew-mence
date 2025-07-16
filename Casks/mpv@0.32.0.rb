@@ -1,6 +1,6 @@
 # original source: https://github.com/Homebrew/homebrew-cask/blob/d784d8c5cd205ff746c1108ecf638c2fbfb8b00e/Casks/mpv.rb
 
-cask "mpv0320" do
+cask "mpv@0.32.0" do
   version "0.32.0"
   sha256 "5c1b21412a0cfa8fbd06b18aa3cea919c1b9ce86d3aa39672cbc714cb753004c"
 

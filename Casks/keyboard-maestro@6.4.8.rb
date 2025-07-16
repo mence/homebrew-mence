@@ -1,4 +1,4 @@
-cask 'keyboard-maestro6' do
+cask 'keyboard-maestro@6.4.8' do
   version '6.4.8'
   sha256 'd83dda790e7043cb5b012bc608ebe687a01f5979cc7f447462b009e17ac92a74'
 

@@ -1,4 +1,4 @@
-cask "viscosity194" do
+cask "viscosity@1.9.4" do
   version "1.9.4"
   sha256 "249d9c2b91be83c51332ec157aa10407df689340a761c8d54780aa1dcdb4e88a"
 
