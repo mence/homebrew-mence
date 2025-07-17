@@ -1,4 +1,4 @@
-cask "docker@4.6.1" do
+cask "docker-desktop@4.6.1" do
   arch = Hardware::CPU.intel? ? "amd64" : "arm64"
 
   version "4.6.1,76265"
