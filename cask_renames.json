@@ -6,6 +6,7 @@
   "docker@4.11.1": "docker-desktop@4.11.1",
   "docker-461": "docker-desktop@4.6.1",
   "docker@4.6.1": "docker-desktop@4.6.1",
+  "dozer": "dozer@4",
   "keyboard-maestro6": "keyboard-maestro@6.4.8",
   "mpv032": "mpv@0.32.0",
   "mpv033": "mpv@0.33.1",

@@ -1,4 +1,4 @@
-cask "dozer" do
+cask "dozer@4" do
     version "4.0.0"
     sha256 "d8d37a114c9dab2f16a56e60d8a977115ba34fe408ff7947d0d74028f1f22843"
 
