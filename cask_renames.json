@@ -9,6 +9,7 @@
   "keyboard-maestro6": "keyboard-maestro@6.4.8",
   "mpv032": "mpv@0.32.0",
   "mpv033": "mpv@0.33.1",
+  "multipass@.1.12.2": "multipass@1.12.2",
   "slack418": "slack@4.18",
   "slack419": "slack@4.19",
   "viscosity194": "viscosity@1.9.4"
