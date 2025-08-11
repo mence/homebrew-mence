@@ -8,7 +8,7 @@ cask 'font-rokkitt' do
       revision:   '50',
       trust_cert: true
   name 'Rokkitt'
-  homepage 'https://www.google.com/fonts/specimen/Rokkitt'
+  homepage 'https://fonts.google.com/specimen/Rokkitt'
 
   depends_on macos: '>= :sierra'
 
